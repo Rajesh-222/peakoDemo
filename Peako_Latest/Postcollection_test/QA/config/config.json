@@ -1,0 +1,43 @@
+{
+  "project": {
+    "id": 1,
+    "name": "Peako_Latest",
+    "description": "Latest features testing",
+    "uuid": "637028"
+  },
+  "collection": {
+    "id": 1,
+    "name": "Postcollection test",
+    "description": "check collection without env",
+    "source_type": "postman",
+    "environments": [
+      "QA"
+    ],
+    "endpoint_count": 4
+  },
+  "environment": "QA",
+  "rules": [],
+  "test_plans": [
+    {
+      "id": 1,
+      "name": "Load Test 1",
+      "engine": "jmeter",
+      "test_type": "load",
+      "vusers": 5,
+      "rampup": 5,
+      "iter_mode": "duration",
+      "loops": 1,
+      "duration": 300,
+      "status": "pending"
+    }
+  ],
+  "config": {
+    "urls": [
+      {
+        "protocol": "https",
+        "url": "dummyjson.com",
+        "port": ""
+      }
+    ]
+  }
+}
