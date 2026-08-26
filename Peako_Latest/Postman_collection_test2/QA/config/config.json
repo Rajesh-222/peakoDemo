@@ -6,9 +6,9 @@
     "uuid": "637028"
   },
   "collection": {
-    "id": 1,
-    "name": "Postcollection test",
-    "description": "check collection without env",
+    "id": 2,
+    "name": "Postman_collection test2",
+    "description": "Testing k6 ",
     "source_type": "postman",
     "environments": [
       "QA"
@@ -26,20 +26,7 @@
       "value": "1"
     }
   ],
-  "test_plans": [
-    {
-      "id": 1,
-      "name": "Load Test 1",
-      "engine": "jmeter",
-      "test_type": "load",
-      "vusers": 5,
-      "rampup": 5,
-      "iter_mode": "duration",
-      "loops": 1,
-      "duration": 300,
-      "status": "generated"
-    }
-  ],
+  "test_plans": [],
   "config": {
     "urls": [
       {
